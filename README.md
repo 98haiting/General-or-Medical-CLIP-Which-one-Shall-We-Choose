@@ -6,6 +6,8 @@ This is the repository of paper: General or Medical CLIP: Which one shall we cho
 ## Environment Setup
 ```
 conda env create --file environment.yml
+conda activate CompFM
+python model_name/task
 ```
 
 ## Experiments
