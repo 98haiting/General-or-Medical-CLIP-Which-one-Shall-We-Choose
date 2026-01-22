@@ -46,12 +46,12 @@ python model_name/i2t.py --mode test --data_type radiology
 ## Citation
 ```
 @inproceedings{
-                huang2025general,
-                title={General or Medical {CLIP}, Which one Shall We Choose?},
-                author={Haiting Huang and Emmanuelle Salin and Dario Zanca and Bjoern Eskofier},
-                booktitle={Submitted to Medical Imaging with Deep Learning},
-                year={2025},
-                url={https://openreview.net/forum?id=4DfIpoTtHk},
-                note={under review}
+      huang2025general,
+      title={General or Medical {CLIP}, Which one Shall We Choose?},
+      author={Haiting Huang and Emmanuelle Salin and Dario Zanca and Bjoern Eskofier},
+      booktitle={Submitted to Medical Imaging with Deep Learning},
+      year={2025},
+      url={https://openreview.net/forum?id=4DfIpoTtHk},
+      note={under review}
 }
 ```
