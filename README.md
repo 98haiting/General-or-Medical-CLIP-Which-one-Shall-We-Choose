@@ -10,7 +10,6 @@ The experiments include four CLIP-based models: CLIP, Biomed-CLIP, PMC-CLIP and 
 ```
 conda env create --file environment.yml
 conda activate CompFM
-python model_name/task
 ```
 
 ### Code Structure
@@ -27,3 +26,19 @@ python model_name/task
 | VQA-RAD              | [Link](https://osf.io/89kps/overview)| self-split based on image occurance|
 | SLAKE                | [Link](https://huggingface.co/datasets/BoKelvin/SLAKE)| English version only|
 | ROCO                 | [Link](https://github.com/razorx89/roco-dataset)|Radiology & Non-radiology|
+
+### Run the Code
+Classification
+```
+python model_name/classification.py
+```
+
+VQA
+```
+python model_name/VQA.py --dataset SLAKE --mode test --SLAKE_version english
+```
+
+Image-to-text retrieval
+```
+python model_name/i2t.py --mode test --data_type radiology
+```
