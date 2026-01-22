@@ -1,4 +1,4 @@
-# Comparison-between-CLIPs-in-Healthcare-using-Explainability-Methods
+# General or Medical CLIP: Which one shall we choose?
 This is the repository of paper: General or Medical CLIP: Which one shall we choose?
 
 ![Experiment pipeline](images/pipeline.png)
@@ -41,4 +41,17 @@ python model_name/VQA.py --dataset SLAKE --mode test --SLAKE_version english
 Image-to-text retrieval
 ```
 python model_name/i2t.py --mode test --data_type radiology
+```
+
+## Citation
+```
+@inproceedings{
+huang2025general,
+title={General or Medical {CLIP}, Which one Shall We Choose?},
+author={Haiting Huang and Emmanuelle Salin and Dario Zanca and Bjoern Eskofier},
+booktitle={Submitted to Medical Imaging with Deep Learning},
+year={2025},
+url={https://openreview.net/forum?id=4DfIpoTtHk},
+note={under review}
+}
 ```
