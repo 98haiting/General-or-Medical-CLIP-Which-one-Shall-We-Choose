@@ -28,17 +28,17 @@ conda activate CompFM
 | ROCO                 | [Link](https://github.com/razorx89/roco-dataset)|Radiology & Non-radiology|
 
 ### Run the Code
-Classification
+* Classification
 ```
 python model_name/classification.py
 ```
 
-VQA
+* VQA
 ```
 python model_name/VQA.py --dataset SLAKE --mode test --SLAKE_version english
 ```
 
-Image-to-text retrieval
+* Image-to-text retrieval
 ```
 python model_name/i2t.py --mode test --data_type radiology
 ```
