@@ -11,4 +11,7 @@ python model_name/task
 ```
 
 ## Experiments
-The experiments include four vision-language models: CLIP, Biomed-CLIP, PMC-CLIP and CXR-CLIP, containing zero-shot, fine-tuning testing. All the settings are included in each model folder.
+The experiments include four CLIP-based models: CLIP, Biomed-CLIP, PMC-CLIP and CXR-CLIP, containing zero-shot, fine-tuning testing. All the settings are included in each model folder.
+
+### Code Structure
+
