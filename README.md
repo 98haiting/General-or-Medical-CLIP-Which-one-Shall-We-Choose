@@ -4,7 +4,7 @@ This is the repository of paper: General or Medical CLIP: Which one shall we cho
 ![Experiment pipeline](images/pipeline.png)
 
 ## Experiments
-The experiments include four CLIP-based models: CLIP, Biomed-CLIP, PMC-CLIP and CXR-CLIP, containing zero-shot, fine-tuning testing. All the settings are included in each model folder.
+The experiments include six CLIP-based models: CLIP, Open-CLIP, UniMed-CLIP, Biomed-CLIP, PMC-CLIP and CXR-CLIP, containing zero-shot, fine-tuning testing. All the settings are included in each model folder.
 
 ### Environment Setup
 ```
